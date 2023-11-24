@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Code sikho</title>
+  </head>
+  <body>
+    <header>
+      <nav class="hod">
+        <ul>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </nav>
+      <label class="logo"
+        ><a href="index.html">
+          <img src="logo1.png" alt="Code sikho" width="200px" /></a
+      ></label>
+      <nav class="hod">
+        <ul>
+          <li><a href="#">Contact Us</a></li>
+          <!-- <li><a href="#" class="log">Log in</a></li> -->
+          <li>
+            <button
+              class="loginbutton1"
+              onclick="document.getElementById('id01').style.display='block'"
+              style="width: auto"
+            >
+              Login
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div id="id01" class="modal">
+      <form class="modal-content animate" action="#" method="post">
+        <div class="imgcontainer">
+          <span
+            onclick="document.getElementById('id01').style.display='none'"
+            class="close"
+            title="Close Modal"
+            >&times;</span
+          >
+          <img src="more_pic.jpg" alt="Avatar" class="avatar" />
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input
+            class="login"
+            type="text"
+            placeholder="Enter Username"
+            name="uname"
+          />
+
+          <label for="psw"><b>Password</b></label>
+          <input
+            class="login"
+            type="password"
+            placeholder="Enter Password"
+            name="psw"
+          />
+          <!-- <div class="container" style="background-color: #f1f1f1"> -->
+          <span class="psw">Forgot <a href="#">password?</a></span>
+          <!-- </div> -->
+          <button class="loginbutton" type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember" />
+            Remember me </label
+          ><br />
+          <h4 class="or">OR</h4>
+          <button class="loginbuttong" type="submit">
+            Continue With Google
+          </button>
+          <button class="loginbuttonl" type="submit">
+            Continue with Facbook
+          </button>
+          <div class="containerl" style="background-color: #f1f1f1">
+            <span class="pswl"
+              >Don't Have a account <a href="#">Create?</a></span
+            >
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="stecky">
+      <div class="menu">
+        <a class="active" href="index.html"
+          ><img src="home_icon.png" alt="HOME" width="25px"
+        /></a>
+        <ul class="navi">
+          <li><a href="#"> All Courses</a></li>
+          <li><a href="videoes.html">Videos</a></li>
+          <li><a href="#">Notes</a></li>
+          <li><a href="#">Practice Problems</a></li>
+          <li><a href="#">Books</a></li>
+          <li><a href="#">Articals</a></li>
+          <!-- <li><a href="#"></a></li> -->
+        </ul>
+        <input
+          class="search"
+          type="text"
+          name="search"
+          placeholder="Search... "
+        />
+      </div>
+    </div>
+    <div class="first">
+      <!-- <div class="firstclass"></div> -->
+      <div class="picture">
+        <h2 class="hellow">Hello, What Do You Want To Learn?</h2>
+      </div>
+    </div>
+
+    <div class="artical">
+      <div class="articalbox1">
+        <h1
+          style="
+            font-size: 45px;
+            color: rgba(255, 255, 255, 0.792);
+            margin-left: 20px;
+          "
+        >
+          ”
+        </h1>
+        <h3 class="texta2">
+          Everybody should learn to program a computer, because it teaches you
+          how to think.
+        </h3>
+        <h4 class="texta">― Steve Jobs</h4>
+      </div>
+      <div class="articalbox2">
+        <h1
+          style="font-size: 45px; color: rgb(255, 255, 255); margin-left: 20px"
+        >
+          ”
+        </h1>
+        <h3 class="texta2">
+          Programming is the art of telling another human being what one wants
+          the computer to do.
+        </h3>
+        <h4 class="texta">― Donald Ervin Knuth</h4>
+      </div>
+    </div>
+    <!-- <a href="#"> <button class="button2">Explore All</button></a>
+      <h2 class="headding1">Courses</h2>
+      <div class="contaner1">
+        <div class="box">
+          <h4 class="headding">C</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p>
+          <button class="button1">Learn</button>
+        </div>
+        <div class="box">
+          <h4 class="headding">C++</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p>
+          <button class="button1">Learn</button>
+        </div>
+        <div class="box">
+          <h4 class="headding">PHP</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p>
+          <button class="button1">Learn</button>
+        </div>
+        <div class="box">
+          <h4 class="headding">PHP</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p>
+          <button class="button1">Learn</button>
+        </div>
+      </div> -->
+
+    <a href="#"> <button class="button2">Explore All</button></a>
+    <h2 class="headding1">Programming</h2>
+    <div class="contaner1">
+      <div class="box" style="background: #78d1f1; color: rgb(14, 108, 107)">
+        <!-- <h4 class="headding">C</h4> -->
+        <img
+          src="c.png"
+          alt=""
+          class="icon"
+          style="width: 40%; height: 40%; margin-left: 30%"
+        />
+        <p>
+          In this C Tutorial, you will learn all C programming basic to advanced
+          concepts like variables, arrays, pointers, strings, loops, etc. This C
+          Programming Tutorial is designed for both beginners as well as
+          experienced professionals.
+        </p>
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">C++</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">JAVA</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">C#</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">PHP</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">R</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">PYTHON</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">SQL & MYSQL</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">GIT & GITHUB</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+    </div>
+    <a href="#"> <button class="button2">Explore All</button></a>
+    <h2 class="headding1">Web Devlopment</h2>
+    <div class="contaner1">
+      <div class="box">
+        <h4 class="headding">HTML</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">CSS</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">JAVA SCRIPT</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">REACT</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">BOOTSTRAP</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">TAILWIND CSS</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">J QUEARY</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+      <div class="box">
+        <h4 class="headding">NODE JS</h4>
+        <!-- <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat
+            aut non fugiat recusandae optio. Totam ad assumenda soluta
+            blanditiis, hic officia laborum! Aspernatur natus molestiae maxime
+            aliquam necessitatibus impedit ab hic numquam perferendis. Quis non
+            repellat labore quo incidunt! Rem earum molestiae consequuntur ex!
+          </p> -->
+        <button class="button1">Learn</button>
+      </div>
+    </div>
+    <!-- <br />
+      <button class="button2">Explore All</button> -->
+    <h1 class="headding2">Pactice code with online code editors</h1>
+    <div class="code">
+      <!-- <h1 class="headding2">Pactice code with online code editors</h1> -->
+      <div class="compilerpic"></div>
+      <div class="comp">
+        <div class="compiler2">
+          <ul>
+            <li>
+              <a
+                href="https://ide.geeksforgeeks.org/online-html-editor"
+                class="link"
+                target="_blank"
+                >Code Editor</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="compiler3">
+          <ul>
+            <li>
+              <a
+                href="https://www.w3schools.com/tryit/trycompiler.asp?filename=demo_python"
+                class="link"
+                target="_blank"
+                >Code Editor</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="compiler">
+          <ul>
+            <li>
+              <a
+                href="https://ide.geeksforgeeks.org/online-html-editor"
+                class="link"
+                target="_blank"
+                >Code Editor</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="compiler2">
+          <ul>
+            <li>
+              <a
+                href="https://ide.geeksforgeeks.org/online-html-editor"
+                class="link"
+                target="_blank"
+                >Code Editor</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="compiler3">
+          <ul>
+            <li>
+              <a
+                href="https://www.w3schools.com/tryit/trycompiler.asp?filename=demo_python"
+                class="link"
+                target="_blank"
+                >Code Editor</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="compiler">
+          <ul>
+            <li>
+              <a
+                href="https://ide.geeksforgeeks.org/online-html-editor"
+                class="link"
+                target="_blank"
+                >Code Editor</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="news">
+      <div class="newsnav"></div>
+      <div class="newsdiv"></div>
+      <div class="newsdiv"></div>
+      <div class="newsdiv"></div>
+      <div class="newsdiv"></div>
+      <div class="newsdiv"></div>
+      <div class="newsdiv"></div>
+      <div class="newsdiv"></div>
+      <div class="newsdiv"></div>
+      <div class="newsdiv"></div>
+      <div class="newsdiv"></div>
+    </div>
+    <footer>
+      <div class="footer">
+        <h4 class="headding">Made By Sanjib</h4>
+      </div>
+    </footer>
+    <script>
+      var modal = document.getElementById("id01");
+
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>
