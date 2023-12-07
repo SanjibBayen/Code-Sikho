@@ -1,7 +1,8 @@
 .active {
-  transition: 0.4s ease-in-out;
-  background-color: #90fce5;
-  border-radius: 84% 16% 79% 21% / 0% 100% 0% 100%;
+  /* transition: 0.3s step-start; */
+  padding: 5px 10px;
+  border-bottom: 4px solid orange;
+  border-radius: 4%;
 }
 .c {
   display: flex;
