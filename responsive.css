@@ -198,6 +198,9 @@
     margin-top: 10px;
   }
 }
+.button2 {
+  font-size: 8px;
+}
 
 @media (max-width: 300px) {
   .sty {
