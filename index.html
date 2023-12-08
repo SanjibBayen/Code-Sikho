@@ -4,23 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <title>Code sikho</title>
   </head>
+
   <body>
+    <!-- head nav -->
     <header>
-      <nav class="hod">
-        <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-        </ul>
-      </nav>
       <a href="index.html" class="logo">
-        <img src="logo1.png" alt="Code sikho" width="200px" />
+        <img src="logo1.png" alt="Code sikho" width="200px" class="logo12" />
       </a>
       <nav class="hod">
         <ul>
-          <li><a href="#" class="ab">Contact Us</a></li>
+          <li><a href="#" class="abc">Contact Us</a></li>
           <li>
             <button
               class="loginbutton1"
@@ -33,6 +29,7 @@
         </ul>
       </nav>
     </header>
+
     <div id="id01" class="modal">
       <form class="modal-content animate" action="#" method="post">
         <div class="imgcontainer">
@@ -63,35 +60,40 @@
             id="psw"
           />
 
-          <span class="psw">Forgot <a href="#">password?</a></span>
+          <span class="psw" style="float: right"
+            >Forgot <a href="#">password?</a></span
+          >
           <button class="loginbutton" type="submit">Login</button>
           <label>
             <input type="checkbox" checked="checked" name="remember" />
             Remember me
           </label>
           <br />
-          <h4 class="or">OR</h4>
+          <h4 style="margin-left: 47%">OR</h4>
           <button class="loginbuttong" type="submit">
             Continue With Google
           </button>
           <button class="loginbuttonl" type="submit">
             Continue with Facbook
           </button>
-          <div class="containerl" style="background-color: #f1f1f1">
-            <span class="pswl"
+          <div style="background-color: #f1f1f1; margin-right: 23%">
+            <span class="pswl" style="float: right"
               >Don't Have a account <a href="#">Create?</a></span
             >
           </div>
         </div>
       </form>
     </div>
+    <!-- 2nd nav -->
     <div class="stecky">
       <div class="menu">
-        <a class="active" href="index.html"
+        <a href="index.html"
           ><img src="home_icon.png" alt="HOME" width="25px"
         /></a>
-
-        <div class="navi">
+        <div id="mySidenav" class="navi">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >×</a
+          >
           <div><a href="#">All Tutorials</a></div>
           <div><a href="videoes.html">Videos</a></div>
           <div><a href="#">Notes</a></div>
@@ -99,7 +101,9 @@
           <div><a href="#">Books</a></div>
           <div><a href="#">Question & Answer</a></div>
         </div>
-
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          >☰</span
+        >
         <input
           class="search"
           type="text"
@@ -109,13 +113,12 @@
       </div>
     </div>
 
+    <!-- first div -->
     <div class="first1">
       <div class="daco" style="margin: 40px 90px">
         <img src="io.svg" alt="" />
       </div>
-      <div class="daco" style="margin: -100px 90px; float: right">
-        <img src="io.svg" alt="" />
-      </div>
+
       <div class="picture">
         <!-- <h2 class="hello">Hello, Students.....</h2> -->
         <div class="inte">
@@ -138,11 +141,15 @@
           </section>
         </main>
       </div>
+      <div class="daco" style="margin: -90px 90px; float: right">
+        <img src="io.svg" alt="" />
+      </div>
     </div>
 
     <div class="artical">
       <div class="articalbox1">
-        <h1
+        <p
+          class="a"
           style="
             font-size: 45px;
             color: rgba(0, 0, 0, 0.792);
@@ -150,7 +157,7 @@
           "
         >
           ”
-        </h1>
+        </p>
         <h3 class="texta2">
           Everybody should learn to program a computer, because it teaches you
           how to think.
@@ -158,9 +165,12 @@
         <h4 class="texta">― Steve Jobs</h4>
       </div>
       <div class="articalbox2">
-        <h1 style="font-size: 45px; color: rgb(0, 0, 0); margin-left: 20px">
+        <p
+          class="a"
+          style="font-size: 45px; color: rgb(0, 0, 0); margin-left: 20px"
+        >
           ”
-        </h1>
+        </p>
         <h3 class="texta2">
           Programming is the art of telling another human being what one wants
           the computer to do.
@@ -169,7 +179,7 @@
       </div>
     </div>
     <div class="sty">
-      <h2 class="headding1">Programming</h2>
+      <h2 class="headding1" style="color: #0a0000">Programming</h2>
       <a href="#"> <button class="button2">Explore All</button></a>
     </div>
     <div class="contaner1">
@@ -292,7 +302,7 @@
     <div class="videos">
       <div class="vc">
         <div style="color: white; margin-bottom: 1%; margin-left: 3%">
-          <h1>Doubt?</h1>
+          <h1 class="g">Doubt?</h1>
         </div>
         <div class="vcc">
           <h3>Doubt? in C Programming</h3>
@@ -496,6 +506,14 @@
           modal.style.display = "none";
         }
       };
+
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
     </script>
   </body>
 </html>
