@@ -542,6 +542,7 @@ a.background-button:hover:after {
   margin: auto auto;
   border-radius: 10px;
   padding: 10px 10px;
+  margin: 1%;
 }
 .newsnav {
   height: 50px;
@@ -552,7 +553,7 @@ a.background-button:hover:after {
   /* margin-left: 6%; */
   padding: 10px 10px;
   border-radius: 15px;
-  /* margin-bottom: 1%; */
+  margin-bottom: 1%;
   background: #0b1d2911;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
