@@ -66,6 +66,9 @@
     display: block;
     transition: 0.3s;
   }
+  .menu span {
+    display: flex;
+  }
 
   .navi a:hover {
     color: #f1f1f1;
@@ -83,12 +86,11 @@
   }
 }
 
-.closebtn {
-  display: none;
-}
-
 /* end */
 @media (max-width: 1200px) {
+  .daco {
+    display: none;
+  }
   .c1 {
     flex-direction: column;
   }
@@ -120,9 +122,7 @@
     margin-bottom: 10px;
     margin-top: 10px;
   }
-  .daco {
-    display: none;
-  }
+
   .hellow {
     font-size: 30px;
   }
@@ -143,9 +143,6 @@
     margin-bottom: 5px;
     margin-top: 5px;
   }
-  .daco {
-    display: none;
-  }
 }
 
 @media (max-width: 300px) {
@@ -162,9 +159,6 @@
     height: auto;
     margin-bottom: 2px;
     margin-top: 2px;
-  }
-  .daco {
-    display: none;
   }
 }
 /* end */
@@ -222,15 +216,7 @@
 }
 
 /* Video */
-@media only screen and (max-width: 1400px) {
-  .videos {
-    /* flex-direction: column-reverse; */
-    flex-direction: column;
-    height: 800px;
-    width: 90%;
-    padding: 5px 5px;
-  }
-
+@media only screen and (max-width: 1425px) {
   .vc {
     width: 80%;
     margin: auto auto;
@@ -250,12 +236,28 @@
 
 @media only screen and (max-width: 800px) {
   .videos {
-    height: 500px;
+    flex-direction: column;
+    height: 550px;
     padding: 5px 5px;
   }
   .vc {
     width: 100%;
+    margin: auto auto;
   }
+  .vcc {
+    width: 100%;
+    height: 20px;
+    font-size: 10px;
+  }
+  .g {
+    font-size: 15px;
+  }
+  .v {
+    height: 45px;
+  }
+}
+.vcc img {
+  height: 20px;
 }
 
 @media only screen and (max-width: 300px) {
@@ -265,7 +267,7 @@
 }
 
 /* button animation */
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   .c1 {
     font-size: 2rem;
     margin-left: 20%;
@@ -297,7 +299,7 @@
     width: 300px;
     margin: 15px;
   }
-}
+} */
 
 @media only screen and (max-width: 800px) {
   .c1 {
@@ -387,6 +389,9 @@
   }
   .cnts {
     font-size: 10px;
+  }
+  .newsnav h1 {
+    font-size: 20px;
   }
 }
 
